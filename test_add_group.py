@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 import unittest
+from group import Group
 
 
 class TestAddGroup(unittest.TestCase):
@@ -19,18 +20,18 @@ class TestAddGroup(unittest.TestCase):
         wd.find_element_by_name("pass").send_keys(password)
         wd.find_element_by_xpath("//input[@value='Login']").click()
 
-    def create_group(self, wd, name, header, footer):
+    def create_group(self, wd, group):
         # open group page
         wd.find_element_by_link_text("groups").click()
         # init group creation
         wd.find_element_by_name("new").click()
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys(name)
+        wd.find_element_by_name("group_name").send_keys(group.name)
         wd.find_element_by_name("group_header").clear()
-        wd.find_element_by_name("group_header").send_keys(header)
+        wd.find_element_by_name("group_header").send_keys(group.header)
         wd.find_element_by_name("group_footer").clear()
-        wd.find_element_by_name("group_footer").send_keys(footer)
+        wd.find_element_by_name("group_footer").send_keys(group.footer)
         # submit group creation
         wd.find_element_by_name("submit").click()
 
@@ -44,7 +45,7 @@ class TestAddGroup(unittest.TestCase):
         wd = self.wd
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.create_group(wd, name="avia", header="test", footer="aviatest")
+        self.create_group(wd, Group(name="avia", header="test", footer="aviatest"))
         self.return_to_group_page(wd)
         self.logout(wd)
 
@@ -52,7 +53,7 @@ class TestAddGroup(unittest.TestCase):
         wd = self.wd
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
-        self.create_group(wd, name="", header="", footer="")
+        self.create_group(wd, Group(name="", header="", footer=""))
         self.return_to_group_page(wd)
         self.logout(wd)
 
