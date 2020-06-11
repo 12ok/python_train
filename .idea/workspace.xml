@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="Delete clear and click" />
+    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="Add test Add Contact">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +50,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_training" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup.test_add_group" />
       </list>
     </recent_temporary>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591819669358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add test Add Contact">
+      <created>1591819963983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591819963983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +192,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add first test Add Group" />
@@ -189,7 +200,8 @@
     <MESSAGE value="Add second test Add Empty Group" />
     <MESSAGE value="Add class Group" />
     <MESSAGE value="Delete clear and click" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete clear and click" />
+    <MESSAGE value="Add test Add Contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test Add Contact" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
@@ -200,37 +212,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591815401031" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1591815182421">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591907143257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591815182421" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591819866754">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591907143257" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1591907436210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591819866754" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591819866754">
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591907436210" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591912106196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591819866754" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591819866754">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591912106196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591819866754" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591819866754">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591912106196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591819866754" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591912106196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1591815370158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591817391062">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591819998290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591817391062" />
-    <state x="611" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1591816775580">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591819998290" />
+    <state x="611" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1591911923847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="611" y="184" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591816775580" />
+    <state x="611" y="184" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591911923847" />
   </component>
 </project>
