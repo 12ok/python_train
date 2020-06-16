@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="Refactoring Test Add Contact">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="Change Readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591912192219</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change Readme">
+      <created>1591912524712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591912524712</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +216,8 @@
     <MESSAGE value="Delete clear and click" />
     <MESSAGE value="Add test Add Contact" />
     <MESSAGE value="Refactoring Test Add Contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Test Add Contact" />
+    <MESSAGE value="Change Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
@@ -227,30 +236,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591907436210" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591912106196">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1591913280849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591912106196">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591913280849" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1591913280849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591912106196">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591913280849" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1591913280849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591912106196">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591913280849" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1591913280849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591912106196" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591913280849" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1591815370158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591912202766">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591912534301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591912202766" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591912534301" />
     <state x="611" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1591911923847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
