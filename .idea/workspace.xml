@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="pytest for test add contact">
+    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\python_train\test" />
+      <recent name="C:\Users\HP\PycharmProjects\python_train\fixture" />
+      <recent name="C:\Users\HP\PycharmProjects\python_train\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest for test.test_add_group" />
       </list>
     </recent_temporary>
@@ -207,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592423920512</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add package">
+      <created>1592425891549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592425891549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +247,8 @@
     <MESSAGE value="Change Readme" />
     <MESSAGE value="pytest for test add group" />
     <MESSAGE value="pytest for test add contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest for test add contact" />
+    <MESSAGE value="add package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
@@ -244,10 +259,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591815401031" />
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591907143257">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592425942374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591907143257" />
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592425942374" />
     <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1591907436210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
