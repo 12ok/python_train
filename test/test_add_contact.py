@@ -16,6 +16,6 @@ def test_add_contact(app):
                       "9112223355", "8127418523", "123", "mailone@rr.rr", "mailtwo@tt.tt",
                       "mailthree@yy.yy", "www", "10", "April", "1985", "23", "December", "2030", "city street",
                       "12", "none")
-    app.login(username="admin", password="secret")
-    app.contact_create(contact)
-    app.logout()
+    app.session.login(username="admin", password="secret")
+    app.contact.create(contact)
+    app.session.logout()
