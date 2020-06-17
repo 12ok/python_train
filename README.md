@@ -5,3 +5,5 @@
 [Задание № 2](https://github.com/12ok/python_train/commit/d0f6ee96435cf245e5f1f9fed57a46d92df401c4)
 
 [Задание № 3](https://github.com/12ok/python_train/commit/e7b87c090cca52f0d5127ba3af9073b912ad3345)
+
+[Задание № 4](https://github.com/12ok/python_train/commit/7e631ec9da1ba5dcb313ea0fa49163e0f52074b0)

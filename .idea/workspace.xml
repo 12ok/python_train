@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="pytest for test add group">
+    <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="pytest for test add contact">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.TestAddGroup.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +82,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.TestAddGroup.test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -100,7 +98,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -116,7 +114,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -124,7 +122,7 @@
       <list>
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup.test_add_group" />
+        <item itemvalue="Python tests.pytest for test.test_add_group" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592338468993</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pytest for test add contact">
+      <created>1592423920512</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592423920512</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +232,8 @@
     <MESSAGE value="Refactoring Test Add Contact" />
     <MESSAGE value="Change Readme" />
     <MESSAGE value="pytest for test add group" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest for test add group" />
+    <MESSAGE value="pytest for test add contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest for test add contact" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
@@ -246,30 +252,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591907436210" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1592423747178">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1592423797742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592423747178" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1592423747178">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592423797742" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1592423797742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592423747178" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1592423747178">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592423797742" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1592423797742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592423747178" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1592423747178">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592423797742" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1592423797742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592423747178" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592423797742" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1591815370158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592338478154">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592423943809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592338478154" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592423943809" />
     <state x="611" y="184" key="refactoring.ChangeSignatureDialog" timestamp="1591911923847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
