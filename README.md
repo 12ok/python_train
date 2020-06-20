@@ -12,4 +12,4 @@
 
 [Задание № 6](https://github.com/12ok/python_train/commit/4331e6f139949cb3ea3e171b6bc7f8e8a56e0dfb)
 
-[Задание № 7]()
+[Задание № 7](https://github.com/12ok/python_train/commit/76b61e8c35ef25d23c771a68b7115a3b88fb9529)
