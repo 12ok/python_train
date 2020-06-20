@@ -9,3 +9,7 @@
 [Задание № 4](https://github.com/12ok/python_train/commit/7e631ec9da1ba5dcb313ea0fa49163e0f52074b0)
 
 [Задание № 5](https://github.com/12ok/python_train/commit/b7aa99f7dc440a6b19818f6deb2f705dcb5283b3)
+
+[Задание № 6](https://github.com/12ok/python_train/commit/4331e6f139949cb3ea3e171b6bc7f8e8a56e0dfb)
+
+[Задание № 7]()
