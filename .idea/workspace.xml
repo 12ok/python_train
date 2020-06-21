@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592683336910</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix Logout and refactor method for group">
+      <created>1592767878999</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592767879016</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +352,8 @@
     <MESSAGE value="add test del contact" />
     <MESSAGE value="add test edit contact" />
     <MESSAGE value="Change Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Readme" />
+    <MESSAGE value="Fix Logout and refactor method for group" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Logout and refactor method for group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
@@ -366,22 +372,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592504279680" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1592683101580">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1592767698567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592683101580" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1592683101580">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592767698567" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1592767698566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592683101580" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1592683101580">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592767698566" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1592767698565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592683101580" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1592683101580">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592767698565" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1592767698566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592683101580" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592767698566" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1592429467152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -402,10 +408,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592683344472">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592767893232">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592683344472" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592767893232" />
     <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592503156801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
