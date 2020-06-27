@@ -40,21 +40,14 @@ class GroupHelper:
         wd.find_element_by_name("delete").click()
         self.return_to_group_page()
 
-    def edit_first_group(self, group):
-        wd = self.app.wd
-        self.open_group_page()
-        self.select_first_group()
-        wd.find_element_by_name("edit").click()
-        self.fill_group_form(group)
-        wd.find_element_by_name("update").click()
-        self.return_to_group_page()
-
     def modify_first_group(self, new_group_date):
         wd = self.app.wd
         self.open_group_page()
         self.select_first_group()
+        # open modify form
         wd.find_element_by_name("edit").click()
         self.fill_group_form(new_group_date)
+        # submit modify
         wd.find_element_by_name("update").click()
         self.return_to_group_page()
 

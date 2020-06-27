@@ -17,3 +17,9 @@
 [Задание № 7](https://github.com/12ok/python_train/commit/76b61e8c35ef25d23c771a68b7115a3b88fb9529)
 
 [Доработка задания № 7](https://github.com/12ok/python_train/commit/dde3ce406bd2cd3261f4662b298cddcee68cc93b)
+
+[Задание 8]()
+
+[Задание 9]()
+
+[Задание 10]()

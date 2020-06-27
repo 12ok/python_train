@@ -1,7 +1,8 @@
 class Contact:
 
-    def __init__(self, firstname, middlename, lastname, nik, title, company, address, home, mobile, work, fax, email,
-                 email2, email3, page, bday, bmonth, byear, aday, amonth, ayear, address2, phone2, notes):
+    def __init__(self, firstname=None, middlename=None, lastname=None, nik=None, title=None, company=None, address=None,
+                 home=None, mobile=None, work=None, fax=None, email=None,
+                 email2=None, email3=None, page=None, address2=None, phone2=None, notes=None):
         self.firstname = firstname
         self.middlename = middlename
         self.lastname = lastname
@@ -17,12 +18,6 @@ class Contact:
         self.email2 = email2
         self.email3 = email3
         self.page = page
-        self.bday = bday
-        self.bmonth = bmonth
-        self.byear = byear
-        self.aday = aday
-        self.amonth = amonth
-        self.ayear = ayear
         self.address2 = address2
         self.phone2 = phone2
         self.notes = notes
