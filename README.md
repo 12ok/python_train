@@ -20,6 +20,6 @@
 
 [Задание 8](https://github.com/12ok/python_train/commit/fb2b980c7fce39446d0139a564217f79f61fb22b)
 
-[Задание 9]()
+[Задание 9](https://github.com/12ok/python_train/commit/e45220fc8be90e2ab7112bd68fc88c9fcc14aa78)
 
 [Задание 10]()
