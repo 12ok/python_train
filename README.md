@@ -22,4 +22,4 @@
 
 [Задание 9](https://github.com/12ok/python_train/commit/e45220fc8be90e2ab7112bd68fc88c9fcc14aa78)
 
-[Задание 10]()
+[Задание 10](https://github.com/12ok/python_train/commit/a1f38f6bacf0e31ba23c8aea306b84bcb57570db)
