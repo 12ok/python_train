@@ -26,6 +26,6 @@
 
 [Задание 11](https://github.com/12ok/python_train/commit/ff00d21dc1fe31d375eae1fba5f19d4c0f9a8902)
 
-[Задание 12]()
+[Задание 12](https://github.com/12ok/python_train/commit/1de44cbfa132d744a09b1d1022d9e5f2b12abf7c)
 
 [Задание 13]()

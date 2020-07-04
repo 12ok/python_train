@@ -23,8 +23,11 @@ class GroupHelper:
             wd.find_element_by_name(field_name).send_keys(text)
 
     def select_first_group(self):
+        self.select_group_by_index(0)
+
+    def select_group_by_index(self, index):
         wd = self.app.wd
-        wd.find_element_by_name("selected[]").click()
+        wd.find_elements_by_name("selected[]")[index].click()
 
     def create(self, group):
         wd = self.app.wd
@@ -38,18 +41,24 @@ class GroupHelper:
         self.group_cache = None
 
     def delete_first_group(self):
+        self.delete_group_by_index(0)
+
+    def delete_group_by_index(self, index):
         wd = self.app.wd
         self.open_group_page()
-        self.select_first_group()
+        self.select_group_by_index(index)
         # submit delete
         wd.find_element_by_name("delete").click()
         self.return_to_group_page()
         self.group_cache = None
 
     def modify_first_group(self, new_group_date):
+        self.modify_group_by_index(new_group_date, 0)
+
+    def modify_group_by_index(self, new_group_date, index):
         wd = self.app.wd
         self.open_group_page()
-        self.select_first_group()
+        self.select_group_by_index(index)
         # open modify form
         wd.find_element_by_name("edit").click()
         self.fill_group_form(new_group_date)
