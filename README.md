@@ -29,3 +29,5 @@
 [Задание 12](https://github.com/12ok/python_train/commit/1de44cbfa132d744a09b1d1022d9e5f2b12abf7c)
 
 [Задание 13](https://github.com/12ok/python_train/commit/2965091d4fef30967e46a42cfb78fa2c91da4fc9)
+
+[Задание 14](https://github.com/12ok/python_train/commit/d8eba4a4e224e0c713b1ec6b9dd626aa22b364da)
