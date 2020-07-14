@@ -9,12 +9,13 @@ class ContactHelper:
 
     def open_home_page(self):
         wd = self.app.wd
-        if not (wd.current_url.endswith("/addressbook/")):
+        if not (wd.current_url.endswith("/addressbook")):
             wd.find_element_by_link_text("home").click()
 
     def return_to_home_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (wd.current_url.endswith("/addressbook")):
+            wd.find_element_by_link_text("home").click()
 
     def create(self, contact):
         wd = self.app.wd
@@ -107,7 +108,7 @@ class ContactHelper:
                 all_emails = element.find_element_by_css_selector("td:nth-child(5)").text
                 all_contacts = element.find_element_by_css_selector("td:nth-child(6)").text
                 self.contact_cache.append(
-                    Contact(firstname=name, lastname=lastname, id=id, address2=address, all_emails=all_emails,
+                    Contact(firstname=name, lastname=lastname, id=id, address=address, all_emails=all_emails,
                             all_phones_from_home_page=all_contacts))
         return list(self.contact_cache)
 
@@ -117,7 +118,7 @@ class ContactHelper:
         firstname = wd.find_element_by_name("firstname").get_attribute("value")
         lastname = wd.find_element_by_name("lastname").get_attribute("value")
         id = wd.find_element_by_name("id").get_attribute("value")
-        adress = wd.find_element_by_name("address").get_attribute("value")
+        adress = wd.find_element_by_name("address").text
         email = wd.find_element_by_name("email").get_attribute("value")
         email2 = wd.find_element_by_name("email2").get_attribute("value")
         email3 = wd.find_element_by_name("email3").get_attribute("value")
@@ -126,14 +127,20 @@ class ContactHelper:
         work = wd.find_element_by_name("work").get_attribute("value")
         phone2 = wd.find_element_by_name("phone2").get_attribute("value")
         return Contact(firstname=firstname, lastname=lastname, home=home, mobile=mobile, work=work, phone2=phone2,
-                       id=id, address2=adress, email=email, email2=email2, email3=email3)
+                       id=id, address=adress, email=email, email2=email2, email3=email3)
 
     def get_contact_from_view_page(self, index):
         wd = self.app.wd
         self.open_contact_view_by_index(index)
         text = wd.find_element_by_id("content").text
-        home = re.search("H: (.*)", text).group(1)
-        mobile = re.search("M: (.*)", text).group(1)
-        work = re.search("W: (.*)", text).group(1)
-        phone2 = re.search("P: (.*)", text).group(1)
+        home = self.find_in_content("H: ", text)
+        mobile = self.find_in_content("M: ", text)
+        work = self.find_in_content("W: ", text)
+        phone2 = self.find_in_content("P: ", text)
         return Contact(home=home, mobile=mobile, work=work, phone2=phone2)
+
+    def find_in_content(self, st, text):
+        if text.find(st) >= 0:
+            return re.search(st + "(.*)", text).group(1)
+        else:
+            return ""
