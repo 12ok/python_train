@@ -4,8 +4,8 @@ from model.contact import Contact
 
 # test падает если есть символы ' \
 # оставила полный вывод в repr для проверки какие данные указывались
-def test_add_contact(app, data_contacts):
-    contact = data_contacts
+def test_add_contact(app, json_contacts):
+    contact = json_contacts
     old_contacts = app.contact.get_contact_list()
     app.contact.create(contact)
     assert len(old_contacts) + 1 == app.contact.count()
