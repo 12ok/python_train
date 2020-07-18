@@ -37,3 +37,7 @@
 [Задание 16](https://github.com/12ok/python_train/commit/60f0c4ad30834070be60c9f2a51ac6fa2e9fef06)
 
 [Задание 17](https://github.com/12ok/python_train/commit/04e01b63ccacdc903e20f1feb08871d2d11501f1)
+
+[Задание 18](https://github.com/12ok/python_train/commit/0fc198bba4bd10a03da04cbd1dbe473ef4beedc0)
+
+[Задание 19](https://github.com/12ok/python_train/commit/0fc198bba4bd10a03da04cbd1dbe473ef4beedc0)
