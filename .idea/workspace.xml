@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_db_matches_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +143,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--check_ui&quot;" />
       <option name="_new_target" value="&quot;test_del_group.test_delete_some_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
@@ -523,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595361651001</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Add assert from db for add delete group">
+      <created>1595620290097</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1595620290097</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chandge Readme" />
     <MESSAGE value="Add test modify first group" />
     <MESSAGE value="Refactor fixture and test" />
     <MESSAGE value="Add ensure login logout" />
@@ -564,7 +568,8 @@
     <MESSAGE value="Add generator json for contacts" />
     <MESSAGE value="Change Readme" />
     <MESSAGE value="Add fixture db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fixture db" />
+    <MESSAGE value="Add assert from db for add delete group" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assert from db for add delete group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
@@ -575,15 +580,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="13" key="#Unittests_in_test_add_group.py/0.0.1536.824@0.0.1536.824" timestamp="1591814661246" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595104538785">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595674838468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595104538785" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595674838468" />
     <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595081431995" />
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595619865906">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595675708159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1595619865906" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1595675708159" />
     <state x="116" y="117" width="1688" height="806" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595081417499" />
     <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595098092658">
       <screen x="0" y="0" width="1536" height="824" />
@@ -593,25 +598,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595085238320" />
-    <state width="1515" height="288" key="GridCell.Tab.0.bottom" timestamp="1595619665415">
+    <state width="1515" height="288" key="GridCell.Tab.0.bottom" timestamp="1595675701939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595619665415" />
+    <state width="1515" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595675701939" />
     <state width="1899" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="288" key="GridCell.Tab.0.center" timestamp="1595619665415">
+    <state width="1515" height="288" key="GridCell.Tab.0.center" timestamp="1595675701939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595619665415" />
+    <state width="1515" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595675701939" />
     <state width="1899" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="288" key="GridCell.Tab.0.left" timestamp="1595619665415">
+    <state width="1515" height="288" key="GridCell.Tab.0.left" timestamp="1595675701939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595619665415" />
+    <state width="1515" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595675701939" />
     <state width="1899" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="288" key="GridCell.Tab.0.right" timestamp="1595619665415">
+    <state width="1515" height="288" key="GridCell.Tab.0.right" timestamp="1595675701939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595619665415" />
+    <state width="1515" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595675701939" />
     <state width="1899" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
     <state width="1515" height="194" key="GridCell.Tab.1.bottom" timestamp="1595437717994">
       <screen x="0" y="0" width="1536" height="824" />
