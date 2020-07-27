@@ -53,7 +53,7 @@ def test_modify_group_footer(app, db, check_ui):
     for i in range(len(old_groups)):
         if old_groups[i].id == old_group.id:
             old_groups[i] = new_group
-    assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+    assert old_groups == new_groups
     if check_ui:
         assert sorted(map(clear, new_groups), key=Group.id_or_max) == sorted(app.group.get_group_list(),
                                                                              key=Group.id_or_max)
