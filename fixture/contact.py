@@ -179,3 +179,12 @@ class ContactHelper:
         wd.find_element_by_css_selector('[name="to_group"] [value="%s"]' % group_id).click()
         wd.find_element_by_name("add").click()
         self.return_to_home_page()
+
+    def delete_from_group(self, contact_id, group_id):
+        wd = self.app.wd
+        self.open_home_page()
+        wd.find_element_by_name("group").click()
+        wd.find_element_by_css_selector('[name="group"] [value="%s"]' % group_id).click()
+        self.select_contact_by_id(contact_id)
+        wd.find_element_by_name("remove").click()
+        self.return_to_home_page()
