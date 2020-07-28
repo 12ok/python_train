@@ -24,4 +24,4 @@ def test_delete_contact_from_group(app, db):
     old_contacts_in_group.remove(contact)
     new_contacts_in_group = orm_db.get_contacts_in_group(group)
     assert len(old_contacts_in_group) == len(new_contacts_in_group)
-    assert old_contacts_in_group == new_contacts_in_group
+    assert sorted(old_contacts_in_group, key=Contact.id_or_max) == sorted(new_contacts_in_group, key=Contact.id_or_max)

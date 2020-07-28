@@ -18,4 +18,4 @@ def test_add_contact_to_group(app, db):
     app.contact.add_to_group(contact.id, group.id)
     old_contacts_in_group.append(contact)
     new_contacts_in_group = orm_db.get_contacts_in_group(group)
-    assert old_contacts_in_group == new_contacts_in_group
+    assert sorted(old_contacts_in_group, key=Contact.id_or_max) == sorted(new_contacts_in_group, key=Contact.id_or_max)
