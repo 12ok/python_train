@@ -66,11 +66,15 @@ class ContactHelper:
     def delete_contact_by_id(self, id):
         wd = self.app.wd
         self.open_home_page()
-        wd.find_element_by_css_selector("input[value='%s']" % id).click()
+        self.select_contact_by_id(id)
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
         self.return_to_home_page()
         self.contact_cache = None
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def modify_first_contact(self, contact):
         self.modify_contact_by_index(contact, 0)
@@ -166,3 +170,12 @@ class ContactHelper:
             return re.search(st + "(.*)", text).group(1)
         else:
             return ""
+
+    def add_to_group(self, contact_id, group_id):
+        wd = self.app.wd
+        self.open_home_page()
+        self.select_contact_by_id(contact_id)
+        wd.find_element_by_name("to_group").click()
+        wd.find_element_by_css_selector('[name="to_group"] [value="%s"]' % group_id).click()
+        wd.find_element_by_name("add").click()
+        self.return_to_home_page()
