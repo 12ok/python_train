@@ -22,9 +22,8 @@
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/check_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact_to_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact_to_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_del_contact_from_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact_from_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
-    </task>
-    <task id="LOCAL-00009" summary="pytest for test add group">
-      <created>1592338468992</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1592338468993</updated>
     </task>
     <task id="LOCAL-00010" summary="pytest for test add contact">
       <created>1592423920512</created>
@@ -537,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595960652685</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Add test delete contact from group">
+      <created>1595963953881</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1595963953881</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add assert for test del contact" />
     <MESSAGE value="add assert for test add modify contact" />
     <MESSAGE value="add cache for group and contact" />
     <MESSAGE value="add random for del modify tests" />
@@ -578,7 +576,8 @@
     <MESSAGE value="Add assert contact from homepage to db" />
     <MESSAGE value="Change Readme" />
     <MESSAGE value="Add test add contact to group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test add contact to group" />
+    <MESSAGE value="Add test delete contact from group" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test delete contact from group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
@@ -607,45 +606,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595085238320" />
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1595962148083">
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595962148083" />
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1595962148083">
+    <state width="1515" height="258" key="GridCell.Tab.0.center" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595962148083" />
+    <state width="1515" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1595962148082">
+    <state width="1515" height="258" key="GridCell.Tab.0.left" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595962148082" />
+    <state width="1515" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1595962148083">
+    <state width="1515" height="258" key="GridCell.Tab.0.right" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595962148083" />
+    <state width="1515" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="391" key="GridCell.Tab.1.bottom" timestamp="1595959701656">
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="391" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595959701656" />
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="261" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="391" key="GridCell.Tab.1.center" timestamp="1595959701655">
+    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="391" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595959701655" />
+    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="261" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="391" key="GridCell.Tab.1.left" timestamp="1595959701655">
+    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="391" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595959701655" />
+    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="261" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="391" key="GridCell.Tab.1.right" timestamp="1595959701655">
+    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1595968574082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="391" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595959701655" />
+    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595968574082" />
     <state width="1899" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1592852676338">
       <screen x="0" y="0" width="1536" height="824" />
@@ -672,5 +671,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595875193268" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_add_contact_to_group.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
