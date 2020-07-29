@@ -4,13 +4,12 @@ from model.group import Group
 import random
 
 
-def test_add_contact_to_group(app, db):
+def test_add_contact_to_group(app, db, orm_db):
     if len(db.get_contact_list()) == 0:
         app.contact.create(Contact(firstname="Name", middlename="Middle", lastname="Surname"))
     if len(db.get_group_list()) == 0:
         app.group.create(Group(name="test"))
     old_groups = db.get_group_list()
-    orm_db = ORMFixture(host="127.0.0.1", name="addressbook", user="root", password="")
     # Если нет контактов без групп, добавляем новый контакт
     if len(orm_db.get_contacts_without_group()) == 0:
         app.contact.create(Contact(firstname="Name", middlename="Middle", lastname="Surname"))
