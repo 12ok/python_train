@@ -45,3 +45,5 @@
 [Задание 20](https://github.com/12ok/python_train/commit/a08420f7201be695ea19b7a384cdaab84c3b15e5)
 
 [Задание 21](https://github.com/12ok/python_train/commit/1913d80c250ff6415022f5e9433d0e7a69fc2338)
+
+[Задание 22](https://github.com/12ok/python_train/commit/b521e4001be79f9d29e142ced79d740688854b49)
