@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact_to_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact_to_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_contact_from_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_contact_from_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <recent name="C:\Users\HP\PycharmProjects\python_train\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_del_contact_from_group.py">
+  <component name="RunManager" selected="Python tests.pytest for bdd.group_scenarios.test_delete_group">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +78,38 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for bdd.group_scenarios.test_add_new_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bdd.group_scenarios.test_add_new_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for bdd.group_scenarios.test_delete_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_train" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bdd.group_scenarios.test_delete_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_add_contact_to_group.test_add_contact_to_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_train" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,38 +123,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_contact_to_group.test_add_contact_to_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_del_contact_from_group.test_delete_contact_from_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_train" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_del_contact_from_group.test_delete_contact_from_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_del_contact_from_group.test_delete_contact_from_group_v2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_train" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_del_contact_from_group.test_delete_contact_from_group_v2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -164,18 +160,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
-      <item itemvalue="Python tests.pytest for test_del_contact_from_group.test_delete_contact_from_group" />
-      <item itemvalue="Python tests.pytest for test_del_contact_from_group.test_delete_contact_from_group_v2" />
       <item itemvalue="Python tests.pytest in test" />
       <item itemvalue="Python tests.pytest in test_del_contact_from_group.py" />
+      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_add_new_group" />
+      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_delete_group" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_delete_group" />
+        <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_add_new_group" />
         <item itemvalue="Python tests.pytest in test_del_contact_from_group.py" />
         <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.pytest for test_del_contact_from_group.test_delete_contact_from_group_v2" />
-        <item itemvalue="Python tests.pytest for test_del_contact_from_group.test_delete_contact_from_group" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add sessionHelper class">
-      <created>1592426832217</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1592426832217</updated>
     </task>
     <task id="LOCAL-00013" summary="add groupHelper class">
       <created>1592427270044</created>
@@ -534,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595968911443</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add fixture orm_db">
+      <created>1596052119029</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1596052119029</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add random for del modify tests" />
     <MESSAGE value="Add test phones" />
     <MESSAGE value="Add test contact on home page" />
     <MESSAGE value="Refactor test_contact and test_phones" />
@@ -575,7 +570,8 @@
     <MESSAGE value="Add test delete contact from group" />
     <MESSAGE value="Add assert for test delete from group" />
     <MESSAGE value="Add sorted for assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sorted for assert" />
+    <MESSAGE value="Add fixture orm_db" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fixture orm_db" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
@@ -596,53 +592,53 @@
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1595968882432" />
     <state x="116" y="117" width="1688" height="806" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595081417499" />
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595098092658">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596924036226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595098092658" />
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596924036226" />
     <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1595085238320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595085238320" />
-    <state width="1515" height="286" key="GridCell.Tab.0.bottom" timestamp="1596051988682">
+    <state width="1515" height="286" key="GridCell.Tab.0.bottom" timestamp="1596926503637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596051988682" />
+    <state width="1515" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596926503637" />
     <state width="1899" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="286" key="GridCell.Tab.0.center" timestamp="1596051988682">
+    <state width="1515" height="286" key="GridCell.Tab.0.center" timestamp="1596926503637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596051988682" />
+    <state width="1515" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596926503637" />
     <state width="1899" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="286" key="GridCell.Tab.0.left" timestamp="1596051988682">
+    <state width="1515" height="286" key="GridCell.Tab.0.left" timestamp="1596926503636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596051988682" />
+    <state width="1515" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596926503636" />
     <state width="1899" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="286" key="GridCell.Tab.0.right" timestamp="1596051988682">
+    <state width="1515" height="286" key="GridCell.Tab.0.right" timestamp="1596926503637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596051988682" />
+    <state width="1515" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596926503637" />
     <state width="1899" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595081017074" />
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1596051079050">
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1596052309143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596051079050" />
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596052309143" />
     <state width="1899" height="261" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1596051079050">
+    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1596052309143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596051079050" />
+    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596052309143" />
     <state width="1899" height="261" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1596051079050">
+    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1596052309143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596051079050" />
+    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596052309143" />
     <state width="1899" height="261" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
-    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1596051079050">
+    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1596052309143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596051079050" />
+    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596052309143" />
     <state width="1899" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1592852676338">
       <screen x="0" y="0" width="1536" height="824" />
@@ -652,10 +648,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595968939069">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596052145630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595968939069" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596052145630" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595081556996" />
     <state x="306" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596050864494">
       <screen x="0" y="0" width="1536" height="824" />
