@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add groupHelper class">
-      <created>1592427270044</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1592427270044</updated>
     </task>
     <task id="LOCAL-00014" summary="add contactHelper class">
       <created>1592427721672</created>
@@ -530,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596052119029</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Add BDD">
+      <created>1596926586245</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1596926586285</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add test phones" />
     <MESSAGE value="Add test contact on home page" />
     <MESSAGE value="Refactor test_contact and test_phones" />
     <MESSAGE value="Add parametrize for test_add_group" />
@@ -571,7 +570,8 @@
     <MESSAGE value="Add assert for test delete from group" />
     <MESSAGE value="Add sorted for assert" />
     <MESSAGE value="Add fixture orm_db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fixture orm_db" />
+    <MESSAGE value="Add BDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BDD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
@@ -644,10 +644,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1592852676338" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1591815370158">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1596929369789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591815370158" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596929369789" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596052145630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
