@@ -187,13 +187,6 @@
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
     </task>
-    <task id="LOCAL-00014" summary="add contactHelper class">
-      <created>1592427721672</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1592427721672</updated>
-    </task>
     <task id="LOCAL-00015" summary="add test delete group and file conftest">
       <created>1592680020836</created>
       <option name="number" value="00015" />
@@ -530,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596926586285</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add requirements">
+      <created>1596930100655</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1596930100655</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add test contact on home page" />
     <MESSAGE value="Refactor test_contact and test_phones" />
     <MESSAGE value="Add parametrize for test_add_group" />
     <MESSAGE value="Add parametrize for test_add_contact" />
@@ -571,7 +570,8 @@
     <MESSAGE value="Add sorted for assert" />
     <MESSAGE value="Add fixture orm_db" />
     <MESSAGE value="Add BDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BDD" />
+    <MESSAGE value="Add requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requirements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
@@ -644,14 +644,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1592852676338" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1596929369789">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1596930039433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596929369789" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596052145630">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596930039433" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596930112911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596052145630" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596930112911" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595081556996" />
     <state x="306" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596050864494">
       <screen x="0" y="0" width="1536" height="824" />
