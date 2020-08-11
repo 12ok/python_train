@@ -5,6 +5,7 @@ import re
 from fixture.application import Application
 from fixture.db import DbFixture
 from model.group import Group
+from model.contact import Contact
 
 
 class AddressBook:
@@ -45,3 +46,26 @@ class AddressBook:
             return Group(id=group.id, name=re.sub(" +", " ", group.name).strip())
 
         assert sorted(map(clear, list1), key=Group.id_or_max) == sorted(map(clear, list2), key=Group.id_or_max)
+
+    def get_contact_list(self):
+        return self.dbfixture.get_contact_list()
+
+    def new_contact(self, firstname, middlename, lastname):
+        return Contact(firstname=firstname, middlename=middlename, lastname=lastname)
+
+    def create_contact(self, contact):
+        self.fixture.contact.create(contact)
+
+    def contact_list_should_be_equals(self, list1, list2):
+        assert sorted(list1, key=Contact.id_or_max) == sorted(list2, key=Contact.id_or_max)
+
+    def delete_contact(self, contact):
+        self.fixture.contact.delete_contact_by_id(contact.id)
+
+    def get_non_empty_contact_list(self):
+        if len(self.dbfixture.get_contact_list()) == 0:
+            self.fixture.contact.create(Contact(firstname="Name", middlename="Middle", lastname="Surname"))
+        return self.dbfixture.get_contact_list()
+
+    def modify_contact(self, random_contact, new_contact):
+        self.fixture.contact.modify_contact_by_id(new_contact, random_contact.id)
