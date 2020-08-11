@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from model.contact import Contact
 
-
 # test падает если есть символы ' \
 # оставила полный вывод в repr для проверки какие данные указывались
 def test_add_contact(app, json_contacts, db, check_ui):
