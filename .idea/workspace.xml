@@ -22,8 +22,6 @@
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,11 +160,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_add_new_group" />
-      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_delete_group" />
       <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact" />
       <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_delete_contact" />
       <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_modify_contact" />
+      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_add_new_group" />
+      <item itemvalue="Python tests.pytest for bdd.group_scenarios.test_delete_group" />
     </list>
     <recent_temporary>
       <list>
@@ -189,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add test del contact">
-      <created>1592681714204</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1592681714204</updated>
     </task>
     <task id="LOCAL-00018" summary="add test edit contact">
       <created>1592683262233</created>
@@ -533,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596972324723</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add allure report">
+      <created>1597168665736</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1597168665774</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add parametrize for test_add_contact" />
     <MESSAGE value="Add arguments for cmd" />
     <MESSAGE value="Add file target" />
     <MESSAGE value="Add package generator" />
@@ -574,13 +571,18 @@
     <MESSAGE value="Add requirements" />
     <MESSAGE value="Add jenkins screenshot" />
     <MESSAGE value="Add bdd for contact test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bdd for contact test" />
+    <MESSAGE value="add allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure report" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1593286584050" />
+    <state x="361" y="53" key="#Plugins" timestamp="1597173501164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1597173501164" />
     <state x="484" y="13" key="#Unittests_in_test_add_group.py" timestamp="1591814661246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -595,10 +597,10 @@
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1595968882432" />
     <state x="116" y="117" width="1688" height="806" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595081417499" />
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596924036226">
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597173597673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596924036226" />
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597173597673" />
     <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1597166141003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -643,18 +645,22 @@
     </state>
     <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596052309143" />
     <state width="1899" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595079497557" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1597175502923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1597175502923" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1592852676338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1592852676338" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1596930039433">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1597178049360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596930039433" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596972335557">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597178049360" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597168703324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596972335557" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597168703324" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595081556996" />
     <state x="306" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596050864494">
       <screen x="0" y="0" width="1536" height="824" />
