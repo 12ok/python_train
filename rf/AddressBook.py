@@ -1,5 +1,6 @@
 import json
 import os.path
+import re
 
 from fixture.application import Application
 from fixture.db import DbFixture
@@ -7,7 +8,6 @@ from model.group import Group
 
 
 class AddressBook:
-
     ROBOT_LIBRARY_SCOPE = 'TEST SUITE'
 
     def __init__(self, config="target.json", browser="chrome"):
@@ -28,5 +28,20 @@ class AddressBook:
         self.fixture.destroy()
         self.dbfixture.destroy()
 
-    def create_group(self, name, header, footer):
-        self.fixture.group.create(Group(name=name, header=header, footer=footer))
+    def get_group_list(self):
+        return self.dbfixture.get_group_list()
+
+    def new_group(self, name, header, footer):
+        return Group(name=name, header=header, footer=footer)
+
+    def create_group(self, group):
+        self.fixture.group.create(group)
+
+    def delete_group(self, group):
+        self.fixture.group.delete_group_by_id(group.id)
+
+    def group_list_should_be_equals(self, list1, list2):
+        def clear(group):
+            return Group(id=group.id, name=re.sub(" +", " ", group.name).strip())
+
+        assert sorted(map(clear, list1), key=Group.id_or_max) == sorted(map(clear, list2), key=Group.id_or_max)

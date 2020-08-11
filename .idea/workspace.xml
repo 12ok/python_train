@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b4e70dc-1092-415f-9390-443089651bb5" name="Default Changelist" comment="add contactHelper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf/AddressBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf/AddressBook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf/group_scenario.robot" beforeDir="false" afterPath="$PROJECT_DIR$/rf/group_scenario.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591811231781</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add test edit contact">
-      <created>1592683262233</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1592683262233</updated>
     </task>
     <task id="LOCAL-00019" summary="Change Readme">
       <created>1592683336910</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597168665774</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add robot framework">
+      <created>1597178235961</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1597178235961</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add arguments for cmd" />
     <MESSAGE value="Add file target" />
     <MESSAGE value="Add package generator" />
     <MESSAGE value="Dynamic test generation" />
@@ -572,7 +572,8 @@
     <MESSAGE value="Add jenkins screenshot" />
     <MESSAGE value="Add bdd for contact test" />
     <MESSAGE value="add allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="add allure report" />
+    <MESSAGE value="add robot framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add robot framework" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1593286584050">
